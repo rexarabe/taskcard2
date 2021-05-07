@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: column;
+    border: solid;
+}
+.part1{
+    background-color: white;
+    color: white;
+    height: 50px;
+}
+.monolith{
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX28142406.jpg");
+}
+.partcenteral{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image img{
+    width: 5em;
+    border-radius: 50%;
+    border: solid;
+}
+.partcenteral1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: darkgoldenrod;
+    font-family: "Fira Code";
+}
